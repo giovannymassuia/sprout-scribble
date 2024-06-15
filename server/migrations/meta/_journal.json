@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1718476134601,
+      "tag": "0000_orange_rumiko_fujikawa",
+      "breakpoints": true
+    }
+  ]
+}
