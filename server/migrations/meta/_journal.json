@@ -8,6 +8,13 @@
       "when": 1718476134601,
       "tag": "0000_orange_rumiko_fujikawa",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1718555994892,
+      "tag": "0001_busy_medusa",
+      "breakpoints": true
     }
   ]
 }
