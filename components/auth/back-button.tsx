@@ -10,7 +10,10 @@ type Props = {
 
 export default function BackButton({ href, label }: Props) {
     return (
-        <Button variant="secondary">
+        <Button
+            variant="link"
+            asChild
+        >
             <Link
                 href={href}
                 aria-label={label}

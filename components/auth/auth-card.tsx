@@ -25,7 +25,7 @@ export const AuthCard = ({ children, cardTitle, backButtonHref, backButtonLabel,
                 </CardFooter>
             )}
 
-            <CardFooter>
+            <CardFooter className="flex justify-center">
                 <BackButton
                     href={backButtonHref}
                     label={backButtonLabel}
