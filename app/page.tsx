@@ -9,23 +9,5 @@ export default async function Home() {
         return <main className="text-center">{data.message}</main>;
     }
 
-    return (
-        <main>
-            {data.data?.map((post) => (
-                <article key={post.id}>
-                    <h2>{post.title}</h2>
-                </article>
-            ))}
-
-            <form action={createPost}>
-                <input
-                    className="bg-black"
-                    type="text"
-                    name="title"
-                    placeholder="Title"
-                />
-                <PostButton />
-            </form>
-        </main>
-    );
+    return <main>hey</main>;
 }
